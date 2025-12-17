@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Fireball - Official Basketball Team</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Teko:wght@500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">FIRE<span style="color:white">BALL</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">Team</a></li>
+                <li><a href="#roster" class="nav-link">Roster</a></li>
+                <li><a href="#schedule" class="nav-link">Schedule</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="cta-btn">Join Us</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="hero-tag">Est. 2024</span>
+            <h1 class="hero-title">Dominate <br>The Court</h1>
+            <p class="hero-desc">We are not just a team. We are a brotherhood bonded by the love of the game. Passion, dedication, and relentlessly chasing victory.</p>
+            <div class="hero-btns">
+                <a href="#schedule" class="cta-btn">Next Match</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roster Section -->
+    <section id="roster" class="section">
+        <div class="section-header">
+            <h2>The Squad</h2>
+            <p style="color: var(--text-muted);">Meet the players leaving it all on the floor.</p>
+        </div>
+        
+        <div class="roster-grid">
+            <!-- Player 1 -->
+            <div class="player-card">
+                <div class="player-img-container">
+                    <div class="player-num">23</div>
+                    <!-- Using placeholder images from unsplash source -->
+                    <img src="assets/images/screenX-1.jpg" alt="Player 1" class="player-img">
+                </div>
+                <div class="player-info">
+                    <div class="player-pos">Point Guard</div>
+                    <h3 class="player-name">Marcus "Flash" Johnson</h3>
+                </div>
+            </div>
+
+            <!-- Player 2 -->
+            <div class="player-card">
+                <div class="player-img-container">
+                    <div class="player-num">15</div>
+                    <img src="https://images.unsplash.com/photo-1519861531473-9200262188be?q=80&w=1000&auto=format&fit=crop" alt="Player 2" class="player-img">
+                </div>
+                <div class="player-info">
+                    <div class="player-pos">Shooting Guard</div>
+                    <h3 class="player-name">David "Sniper" Lee</h3>
+                </div>
+            </div>
+
+            <!-- Player 3 -->
+            <div class="player-card">
+                <div class="player-img-container">
+                    <div class="player-num">34</div>
+                    <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?q=80&w=1000&auto=format&fit=crop" alt="Player 3" class="player-img">
+                </div>
+                <div class="player-info">
+                    <div class="player-pos">Center</div>
+                    <h3 class="player-name">Tyrone "Wall" Biggs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="section">
+        <div class="section-header">
+            <h2>Season Schedule</h2>
+        </div>
+
+        <div class="schedule-list">
+            <div class="match-item">
+                <div class="match-date">
+                    <span class="match-day">12</span>
+                    <span>JAN</span>
+                </div>
+                <div class="match-teams">
+                    <span class="team-name">Team Fireball</span>
+                    <span class="vs">VS</span>
+                    <span class="team-name" style="color: var(--text-muted)">City Vipers</span>
+                </div>
+                <a href="#" class="cta-btn" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">Tickets</a>
+            </div>
+
+            <div class="match-item">
+                <div class="match-date">
+                    <span class="match-day">18</span>
+                    <span>JAN</span>
+                </div>
+                <div class="match-teams">
+                    <span class="team-name">Team Fireball</span>
+                    <span class="vs">VS</span>
+                    <span class="team-name" style="color: var(--text-muted)">Northside Wolves</span>
+                </div>
+                <a href="#" class="cta-btn" style="padding: 0.5rem 1.5rem; font-size: 0.8rem;">Tickets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+        </div>
+        <p style="color: var(--text-muted);">&copy; 2024 Team Fireball. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
