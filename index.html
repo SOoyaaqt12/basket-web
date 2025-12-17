@@ -15,9 +15,6 @@
     
     <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-    <!-- Three.js (CDN) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 </head>
 <body>
 
@@ -51,13 +48,19 @@
                 </div>
             </div>
             
-            <div class="hero-mascot-area">
-                <!-- 3D Canvas Container -->
-                <div id="canvas-container" style="width: 100%; height: 100%;"></div>
+            <!-- Player Duo Static -->
+            <div class="hero-player-area">
+                <div class="duo-wrapper">
+                    <img src="assets/202681.png" alt="Player 1" class="player-static p1">
+                    <img src="assets/1630163.png" alt="Player 2" class="player-static p2">
+                </div>
+                
+                <!-- Decorative Elements (Static) -->
+                <div class="hero-glow"></div>
                 
                 <!-- Chat Bubble -->
                 <div class="chat-bubble show" id="chatBubble">
-                    The Pack is Here! 🐺
+                    The Pack is Here! 🏀
                 </div>
             </div>
         </div>
@@ -74,7 +77,6 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="mascot3d.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
