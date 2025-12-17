@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  // Reveal on Scroll
+  // Reveal on Scroll (Common)
   const observerOptions = {
     threshold: 0.1,
   };
@@ -37,5 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Simple Console Welcome
-  console.log("🏀 Welcome to the Team!");
+  console.log("🏀 Team Fireball Loaded!");
 });
